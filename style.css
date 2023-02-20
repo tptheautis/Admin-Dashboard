@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #cccccc;
+}
+
+.mainContainer {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 20% 30% 30% 20%;
+    grid-template-rows: 1fr 30% 30% 30%;
+}
+
+.sidebarContainer {
+    
+}
+
+.sidebar {
+    background-color: #88c7dc;
+}
+
+.projects {
+    background-color: white;
+}
+
+.announcements {
+    background-color: white;
+}
